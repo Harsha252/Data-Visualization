@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+            <title> Project - Data Visulization </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding-left: 0px;
+                
+                overflow: hidden;
+                background-color:#1f6272 ;
+            }
+        
+            h1{
+                text-align: center; 
+                font-size: 50px;
+            }
+            li {
+                float: left;
+            }
+            #container {
+            width: 75%;
+            margin: auto;
+            padding-top: 3%;
+            background-color:#e5e5e5;
+            text-align: center;
+        }
+        
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 12px 14px;
+                font-size: 21px;
+                text-decoration: none;
+            }
+           
+        
+            li a:hover:not(.active) {
+                background-color: #f1a923;
+            }
+        
+            .active {
+                background-color: #4CAF50;
+            }
+
+            .headerContainer {
+                background-color: #3e93a7;
+            }
+        </style> 
+        </head>
+        <body style="background-color: rgb(228, 249, 252); margin: 0px">
+            <div class="headerContainer">
+                <H1 style="color: white; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 22px;"> Olympics Dashboard </H1> 
+            </div>
+        <ul>
+            <li><a href="index.html">Line Chart</a></li>
+            <li><a href="index3.html">Stacked Bar Chart</a></li>
+            <li><a href="index1.html">Geospatial Visualization</a></li>
+            <li><a href="index2.html">Area Chart</a></li>
+            
+        </ul>
+        <!-- <h2>Line Chart Visulization</h2> -->
+        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 15px">
+             <label style="margin-right: 8px" for="selectButton">Select a Country</label><select style="padding: 8px" id="selectButton"></select>
+        </div>
+        <br></br>
+
+        <div id="container"></div>
+        <script>
+         
+          var margin = {top: 10, right: 30, bottom: 30, left: 60},
+              width = 1000 - margin.left - margin.right,
+              height = 500 - margin.top - margin.bottom;
+
+          var svg = d3.select("#container")
+         .append("svg")
+         .attr("width", width + margin.left + margin.right)
+         .attr("height", height + margin.top + margin.bottom)
+         .append("g")
+         .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+         d3.csv("https://raw.githubusercontent.com/shivpatil254/project-data-visulization/main/all_linechart_data.csv", function(data) {
+                var Top_countries = ["United States of America","People's Republic of China","Japan","Great Britain", "ROC", "Australia", "Netherlands", "France", "Germany","Italy"]
+                d3.select("#selectButton")
+                  .selectAll('myOptions')
+                  .data(Top_countries)
+                  .enter()
+                  .append('option')
+                  .text(function (d) { return d; })
+                  .attr("value", function (d) { return d; })
+                var Vis_colour = d3.scaleLinear()
+                   .domain(d3.extent(data, function(d) { return d.Total; }))
+                   .range(d3.schemeSet2);
+ 
+                var x = d3.scaleLinear()
+                    .domain(d3.extent(data, function(d) { return d.Year; }))
+                    .range([ 0, width ]);
+                svg.append("g")
+                   .attr("transform", "translate(0," + height + ")")
+                   .call(d3.axisBottom(x))
+                var y = d3.scaleLinear()
+                   .domain([0, d3.max(data, function(d) { return +d.GoldMedal;})])
+                   .range([ height, 0 ]);
+                svg.append("g")
+                   .call(d3.axisLeft(y));
+                var line = svg
+                   .append('g')
+                   .append("path")
+                   .datum(data.filter(function(d){return d.Team==Top_countries[0]}))
+                   .attr("d", d3.line()
+                   
+
+                .x(function(d) { return x(d.Year) })
+                .y(function(d) { return y(+d.GoldMedal) })
+            )
+            .attr("stroke", function(d){ return Vis_colour("valueA") })
+            .style("stroke-width", 2)
+            .style("fill", "none")
+        function update(selectedGroup) {
+            var data_filter_var = data.filter(function(d){return d.Team==selectedGroup})
+            line
+                .datum(data_filter_var)
+                .transition()
+                .duration(1000)
+                .attr("d", d3.line()
+                    .x(function(d) { return x(d.Year) })
+                    .y(function(d) { return y(+d.GoldMedal) })
+                )
+                .attr("stroke", function(d){ return Vis_colour(selectedGroup) })
+        }
+        d3.select("#selectButton").on("change", function(d) {
+            var selectedOption = d3.select(this).property("value")
+            update(selectedOption)
+        })
+
+    })
+        </script>
+        </body>
+        </html>

@@ -1,0 +1,152 @@
+Rank,Team,GoldMedal,SilverMedal,BronzeMedal,Year,Total,Rank by Total,NOCCode,Continent
+1,United States of America,39,41,33,2021,113,1,USA,North America
+2,United States of America,46,37,38,2016,121,1,USA,North America
+3,United States of America,47,27,30,2012,104,1,USA,North America
+4,United States of America,36,39,37,2008,112,1,USA,North America
+5,United States of America,36,39,26,2004,101,1,USA,North America
+6,United States of America,37,24,32,2000,93,1,USA,North America
+7,United States of America,44,32,25,1996,101,1,USA,North America
+8,United States of America,37,34,37,1992,108,1,USA,North America
+9,United States of America,36,31,27,1988,94,1,USA,North America
+10,United States of America,83,61,30,1984,174,1,USA,North America
+11,United States of America,34,35,25,1976,125,1,USA,North America
+12,United States of America,33,31,30,1972,94,1,USA,North America
+13,United States of America,45,28,34,1968,107,1,USA,North America
+14,United States of America,36,26,28,1964,90,1,USA,North America
+15,United States of America,34,21,16,1960,71,1,USA,North America
+16,United States of America,32,25,17,1956,98,1,USA,North America
+17,United States of America,40,19,17,1952,76,1,USA,North America
+18,United States of America,38,27,19,1948,84,1,USA,North America
+19,United States of America,24,20,12,1936,56,1,USA,North America
+20,United States of America,41,32,30,1932,103,1,USA,North America
+21,United States of America,22,18,16,1928,56,1,USA,North America
+22,United States of America,45,27,27,1924,99,1,USA,North America
+23,United States of America,41,27,27,1920,95,1,USA,North America
+24,United States of America,26,19,19,1912,64,1,USA,North America
+25,United States of America,23,12,12,1908,47,1,USA,North America
+26,United States of America,76,78,77,1904,231,1,USA,North America
+27,United States of America,19,14,15,1900,48,1,USA,North America
+28,United States of America,11,7,2,1896,20,1,USA,North America
+1,People's Republic of China,38,32,18,2021,88,2,CHN,Asia
+2,People's Republic of China,26,18,26,2016,70,2,CHN,Asia
+3,People's Republic of China,38,31,22,2012,91,2,CHN,Asia
+4,People's Republic of China,48,22,30,2008,100,2,CHN,Asia
+5,People's Republic of China,32,17,14,2004,63,2,CHN,Asia
+6,People's Republic of China,28,16,14,2000,58,2,CHN,Asia
+7,People's Republic of China,16,22,12,1996,50,2,CHN,Asia
+8,People's Republic of China,16,22,16,1992,54,2,CHN,Asia
+9,People's Republic of China,5,11,12,1988,28,2,CHN,Asia
+10,People's Republic of China,15,8,9,1984,32,2,CHN,Asia
+1,Japan,27,14,17,2021,58,5,JPN,Asia
+2,Japan,12,8,21,2016,41,5,JPN,Asia
+3,Japan,7,14,17,2012,38,5,JPN,Asia
+4,Japan,9,8,8,2008,25,5,JPN,Asia
+5,Japan,16,9,12,2004,37,5,JPN,Asia
+6,Japan,5,8,5,2000,18,5,JPN,Asia
+7,Japan,3,6,5,1996,14,5,JPN,Asia
+8,Japan,3,8,11,1992,22,5,JPN,Asia
+9,Japan,4,3,7,1988,14,5,JPN,Asia
+10,Japan,10,8,14,1984,32,5,JPN,Asia
+11,Japan,9,6,10,1976,25,5,JPN,Asia
+12,Japan,13,8,8,1972,29,5,JPN,Asia
+13,Japan,11,7,7,1968,25,5,JPN,Asia
+14,Japan,16,5,8,1964,29,5,JPN,Asia
+15,Japan,4,7,7,1960,18,5,JPN,Asia
+16,Japan,4,10,5,1956,19,5,JPN,Asia
+17,Japan,1,6,2,1952,9,5,JPN,Asia
+18,Japan,7,7,4,1932,18,5,JPN,Asia
+19,Japan,2,2,1,1928,5,5,JPN,Asia
+20,Japan,0,0,1,1924,1,5,JPN,Asia
+21,Japan,4,10,5,1956,19,5,JPN,Asia
+22,Japan,1,6,2,1952,9,5,JPN,Asia
+23,Japan,7,7,4,1932,18,5,JPN,Asia
+1,Great Britain,22,21,22,2021,65,4,GBR,Europe
+2,Great Britain,27,23,17,2016,67,4,GBR,Europe
+3,Great Britain,29,18,18,2012,65,4,GBR,Europe
+4,Great Britain,19,13,19,2008,51,4,GBR,Europe
+5,Great Britain,9,9,12,2004,30,4,GBR,Europe
+6,Great Britain,11,10,7,2000,28,4,GBR,Europe
+7,Great Britain,1,8,6,1996,15,4,GBR,Europe
+8,Great Britain,5,3,12,1992,20,4,GBR,Europe
+9,Great Britain,5,10,9,1988,24,4,GBR,Europe
+10,Great Britain,5,11,21,1984,37,4,GBR,Europe
+11,Great Britain,3,5,5,1976,13,4,GBR,Europe
+12,Great Britain,4,5,9,1972,18,4,GBR,Europe
+13,Great Britain,5,5,3,1968,13,4,GBR,Europe
+14,Great Britain,4,12,2,1964,18,4,GBR,Europe
+15,Great Britain,2,6,12,1960,20,4,GBR,Europe
+16,Great Britain,6,7,11,1956,24,4,GBR,Europe
+17,Great Britain,1,2,8,1952,11,4,GBR,Europe
+18,Great Britain,3,14,6,1948,23,4,GBR,Europe
+19,Great Britain,4,7,3,1936,14,4,GBR,Europe
+20,Great Britain,4,7,5,1932,16,4,GBR,Europe
+21,Great Britain,3,10,7,1928,20,4,GBR,Europe
+22,Great Britain,9,13,12,1924,34,4,GBR,Europe
+23,Great Britain,14,16,13,1920,43,4,GBR,Europe
+24,Great Britain,10,15,16,1912,41,4,GBR,Europe
+25,Great Britain,56,51,39,1908,146,4,GBR,Europe
+26,Great Britain,1,1,0,1904,2,4,GBR,Europe
+27,Great Britain,15,8,9,1900,32,4,GBR,Europe
+28,Great Britain,2,3,2,1896,7,4,GBR,Europe
+1,ROC,20,28,23,2016,71,3,ROC,Europe/Asia
+2,ROC,20,28,23,2021,71,3,ROC,Europe/Asia
+1,Australia,17,7,22,2021,46,6,AUS,Australia
+2,Australia,8,11,10,2016,29,6,AUS,Australia
+3,Australia,8,15,12,2012,35,6,AUS,Australia
+4,Australia,14,15,17,2008,46,6,AUS,Australia
+5,Australia,17,16,17,2004,50,6,AUS,Australia
+6,Australia,16,25,17,2000,58,6,AUS,Australia
+7,Australia,9,9,23,1996,41,6,AUS,Australia
+8,Australia,7,9,11,1992,27,6,AUS,Australia
+9,Australia,3,6,5,1988,14,6,AUS,Australia
+10,Australia,4,8,12,1984,24,6,AUS,Australia
+11,Australia,2,2,5,1980,9,6,AUS,Australia
+12,Australia,0,1,4,1976,5,6,AUS,Australia
+13,Australia,8,7,2,1972,17,6,AUS,Australia
+14,Australia,5,7,5,1968,17,6,AUS,Australia
+15,Australia,6,2,10,1964,18,6,AUS,Australia
+16,Australia,8,8,6,1960,22,6,AUS,Australia
+17,Australia,13,8,14,1956,35,6,AUS,Australia
+18,Australia,6,2,3,1952,11,6,AUS,Australia
+19,Australia,2,6,5,1948,13,6,AUS,Australia
+20,Australia,0,0,1,1936,1,6,AUS,Australia
+21,Australia,3,1,1,1932,5,6,AUS,Australia
+22,Australia,1,2,1,1928,4,6,AUS,Australia
+23,Australia,3,1,2,1924,6,6,AUS,Australia
+24,Australia,0,3,1,1904,4,6,AUS,Australia
+25,Australia,2,0,3,1900,5,6,AUS,Australia
+26,Australia,2,0,0,1896,2,6,AUS,Australia
+1,Netherlands,0,2,3,1900,5,9,NED,Europe
+2,Netherlands,0,0,2,1908,2,9,NED,Europe
+3,Netherlands,4,2,5,1920,11,9,NED,Europe
+4,Netherlands,4,1,5,1924,10,9,NED,Europe
+5,Netherlands,6,9,4,1928,19,9,NED,Europe
+6,Netherlands,2,5,0,1932,7,9,NED,Europe
+7,Netherlands,6,4,7,1936,17,9,NED,Europe
+8,Netherlands,5,2,9,1948,16,9,NED,Europe
+9,Netherlands,0,5,0,1952,5,9,NED,Europe
+10,Netherlands,0,1,2,1960,3,9,NED,Europe
+11,Netherlands,2,4,4,1964,10,9,NED,Europe
+12,Netherlands,3,3,1,1968,7,9,NED,Europe
+13,Netherlands,3,1,1,1972,5,9,NED,Europe
+14,Netherlands,0,2,3,1976,5,9,NED,Europe
+15,Netherlands,0,1,2,1980,3,9,NED,Europe
+16,Netherlands,5,2,6,1984,13,9,NED,Europe
+17,Netherlands,2,2,5,1988,9,9,NED,Europe
+18,Netherlands,2,6,7,1992,15,9,NED,Europe
+19,Netherlands,4,5,10,1996,19,9,NED,Europe
+20,Netherlands,12,9,4,2000,25,9,NED,Europe
+21,Netherlands,4,9,9,2004,22,9,NED,Europe
+22,Netherlands,7,5,4,2008,16,9,NED,Europe
+23,Netherlands,6,6,8,2012,20,9,NED,Europe
+24,Netherlands,8,7,4,2016,19,9,NED,Europe
+25,Netherlands,10,12,14,2021,36,9,NED,Europe
+1,France,10,12,11,2021,33,10,FRA,Europe
+2,France,10,18,14,2016,42,10,FRA,Europe
+3,France,11,11,13,2012,35,10,FRA,Europe
+1,Germany,10,11,16,2021,37,8,GER,Europe
+2,Germany,17,10,15,2016,42,8,GER,Europe
+3,Germany,11,20,13,2012,44,8,GER,Europe
+1,Italy,10,10,20,2021,40,7,ITA,Europe
+2,Italy,8,12,8,2016,28,7,ITA,Europe
+3,Italy,8,9,11,2012,28,7,ITA,Europe

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+            <title> Project - Data Visulization </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding-left: 0px;
+                
+                overflow: hidden;
+                background-color:#1f6272;
+            }
+            
+            h1{
+                text-align: center; 
+                font-size: 50px;
+            }
+        
+            li {
+                float: left;
+            }
+        
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 12px 14px;
+                font-size: 21px;
+                text-decoration: none;
+            }
+           
+        
+            li a:hover:not(.active) {
+                background-color: #f1a923;
+            }
+        
+            .active {
+                background-color: #4CAF50;
+            }
+            path {
+            stroke-width: .5px;
+            fill: #a3d8df;
+            stroke: black
+            
+              }
+
+       
+        
+        path:hover {
+            opacity: .6;
+            stroke: black;
+            stroke-width: 4px;
+            fill:aquamarine;
+        }
+
+
+        svg{
+		    display:  block;
+		    margin: auto;
+		    background-color: #e5e5e5;
+     
+	           }
+       
+        
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 12px 14px;
+                text-decoration: none;
+            }
+        
+            li a:hover:not(.active) {
+                background-color: #f1a923;
+            }
+        
+            .active {
+                background-color: #7f9239;
+            }
+            .country {
+                fill: #ccc;
+                stroke: #999;
+            }
+
+
+        .details {
+            top: 0px;
+            visibility: hidden;
+            width: 300px;
+            padding: 80px;
+            height: 100%;
+            opacity: 0.7;
+            position: absolute;
+            background-color: rgb(236, 217, 176);
+            font-size: 30px;
+        }
+
+        .headerContainer {
+                background-color: #3e93a7;
+            }
+        .center {
+            text-align: center;
+        }
+        </style> 
+        </head>
+        <body style="background-color: #e5e5e5; margin: 0px">
+            <div class="headerContainer">
+                <H1 style="color: white; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 22px;"> Olympics Dashboard </H1> 
+            </div>
+        <ul>
+            <li><a href="index.html">Line Chart</a></li>
+            <li><a href="index3.html">Stacked Bar Chart</a></li>
+            <li><a href="index1.html">Geospatial Visualization</a></li>
+            <li><a href="index2.html">Area Chart</a></li>
+            
+        </ul>
+<body>
+
+<div class="details">
+    <h2 class="country"></h2>
+    <p class="rank"></p>
+    <p class="goldmedal"></p>
+    <p class="silvermedal"></p> 
+    <p class="bronzemedal"></p>
+    <p class="total"></p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+<script src="src/js/main.js"></script>
+</body>
+</html>

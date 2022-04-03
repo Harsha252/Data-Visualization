@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+       
+            <title> Project - Data Visulization </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding-left: 0px;
+                overflow: hidden;
+                background-color:#1f6272 ;
+            }
+        
+            li {
+                float: left;
+            }
+
+            
+        
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 12px 14px;
+                text-decoration: none;
+            }
+        
+            svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        h1{
+            font-family: sans-serif;
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center; 
+            font-size: 50px;
+        }
+        #container {
+            width: 75%;
+            margin: auto;
+            padding-top: 3%;
+            background-color:#e5e5e5;
+            text-align: center;
+            
+            text-align: center;
+        }
+        .yAxis {
+            font-size: x-small;
+        }
+
+        
+
+            li a:hover:not(.active) {
+                background-color: #f1a923;
+            }
+        
+            .active {
+                background-color: #4CAF50;
+            }
+
+            .headerContainer {
+                background-color: #3e93a7;
+            }
+     
+        </style>
+        </head>
+        <body style="background-color: rgb(228, 249, 252); margin: 0px">
+            <div class="headerContainer">
+                <H1 style="color: white; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 22px;"> Olympics Dashboard </H1> 
+            </div>
+        <ul>
+            <li><a href="index.html">Line Chart</a></li>
+            <li><a href="index3.html">Stacked Bar Chart</a></li>
+            <li><a href="index1.html">Geospatial Visualization</a></li>
+            <li><a href="index2.html">Area Chart</a></li>
+            
+        </ul>
+        <div id="tooltip"></div>
+        <div id="container" >
+            <h2> Visulization of medals won by each country in tokyo olympics 2021 </h2>
+        <h3>Visualized by Gold, Silver and Bronze Medal</h3>
+        <svg viewBox = "0 0 1200 650">
+            </svg>
+        </div>
+
+        <script>
+
+            const svg = d3.select("svg")
+            let margins = {top: 20, bottom:50, left:100, right:20}
+        
+            data = "All-Data.csv"
+            d3.csv(data, function(d){
+                return {
+                    Country: String(d.Team),
+                    goldmedal:   Number(d["GoldMedal"]),
+                    silvermedal: Number(d["SilverMedal"]),
+                    bronzemedal: Number(d["BronzeMedal"])
+                }
+            }).then(d => {
+               
+                k = d3.map(d, function(d) {return d["Country"]})      // Just creating a list of states for further use
+                
+                
+                //  Stacking data
+                let stack = d3.stack().keys(["goldmedal","silvermedal","bronzemedal"])
+                stackedseries = stack(d)
+        
+                
+        
+                // Finding minimum and maximum 
+                let xmin_max = {min:0,max: d3.max(stackedseries, function(d){
+                    return d3.max(d, function(d){
+                        return d[1];
+                    })
+                })}
+               
+                const width = svg.attr('width')
+                const height = svg.attr('height')
+                
+                
+                // Making x and y scales
+                xScale = d3.scaleLinear()
+                            .domain([xmin_max.min, xmin_max.max])
+                            .range([0+margins.left,1200-margins.right])
+                yScale = d3.scaleBand()
+                            .domain(d3.map(d, function(d) {return d["Country"]}))
+                            .range([(600-margins.bottom), (0+margins.top)])
+                            .padding(1)
+        
+               
+                color = ['#FDC101','#D7D7D7','#E66B0B']       
+                
+                // Creating groups for the data
+                let groups = svg.selectAll('g').data(stackedseries).enter().append('g')
+                                .style('fill', function(d,i) {
+                                        return color[i]
+                                })
+                console.log(groups);
+        
+        
+                
+                let rects = groups.selectAll("rect")
+                                    .data(function(d) {return d})
+                                    .enter()
+                                    .append("rect")
+                                    .attr("x", function(d){return 0+margins.left})
+                                    .attr("y", function(d,i) {return yScale(k[i])}) 
+                                    .attr("height", d=> 10)
+                                    .attr("width", function(d) {return 0})
+        
+        
+                                
+                    rects.transition()
+                                    .delay(function(d,i){return i*100})
+                                    .duration(100)
+                                    .attr("x", function(d){return xScale(d[0])})
+                                    .attr("width", function(d) {return xScale(d[1])-xScale(d[0])})
+                                    .attr("height", d=> 10)
+                                    
+                                    
+         
+                let y_axis = svg.append('g')
+                                .attr("transform", "translate("+margins.left+", "+5+")")
+                                .attr("class","yAxis")
+                                .call(d3.axisLeft(yScale))
+                let x_axis = svg.append('g')
+                                .attr("transform", "translate(0, "+(600-margins.bottom)+")")
+                                .attr("class","yAxis")
+                                .call(d3.axisBottom(xScale))
+        
+                
+                svg.append("circle").attr("cx",1080).attr("cy",20).attr("r", 6).style("fill",'#FDC101' )
+                svg.append("circle").attr("cx",1080).attr("cy",40).attr("r", 6).style("fill", '#D7D7D7')
+                svg.append("circle").attr("cx",1080).attr("cy",60).attr("r", 6).style("fill", '#E66B0B')
+                svg.append("text").attr("x", 1100).attr("y", 25).text("Gold Medal").style("font-size", "15px").attr("alignment-baseline","top-right")
+                svg.append("text").attr("x", 1100).attr("y", 45).text("Silver Medal").style("font-size", "15px").attr("alignment-baseline","top-right")
+                svg.append("text").attr("x", 1100).attr("y", 65).text("Bronze Medal").style("font-size", "15px").attr("alignment-baseline","top-right")
+                
+            })
+            </script>
+        
+        </body>
+        </html>

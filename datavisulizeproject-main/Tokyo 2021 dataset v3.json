@@ -1,0 +1,1211 @@
+[
+ {
+   "Rank": 1,
+   "Team": {
+      "NOC": "United States of America"
+   },
+   "Gold Medal": 39,
+   "Silver Medal": 41,
+   "Bronze Medal": 33,
+   "Total": 113,
+   "Rank by Total": 1,
+   "NOCCode": "USA",
+   "Continent": "North America"
+},
+ {
+   "Rank": 2,
+   "Team": {
+      "NOC": "People's Republic of China"
+   },
+   "Gold Medal": 38,
+   "Silver Medal": 32,
+   "Bronze Medal": 18,
+   "Total": 88,
+   "Rank by Total": 2,
+   "NOCCode": "CHN",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 3,
+   "Team": {
+      "NOC": "Japan"
+   },
+   "Gold Medal": 27,
+   "Silver Medal": 14,
+   "Bronze Medal": 17,
+   "Total": 58,
+   "Rank by Total": 5,
+   "NOCCode": "JPN",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 4,
+   "Team": {
+      "NOC": "Great Britain"
+   },
+   "Gold Medal": 22,
+   "Silver Medal": 21,
+   "Bronze Medal": 22,
+   "Total": 65,
+   "Rank by Total": 4,
+   "NOCCode": "GBR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 5,
+   "Team": {
+      "NOC": "ROC"
+   },
+   "Gold Medal": 20,
+   "Silver Medal": 28,
+   "Bronze Medal": 23,
+   "Total": 71,
+   "Rank by Total": 3,
+   "NOCCode": "ROC",
+   "Continent": "Europe/Asia"
+},
+ {
+   "Rank": 6,
+   "Team": {
+      "NOC": "Australia"
+   },
+   "Gold Medal": 17,
+   "Silver Medal": 7,
+   "Bronze Medal": 22,
+   "Total": 46,
+   "Rank by Total": 6,
+   "NOCCode": "AUS",
+   "Continent": "Australia"
+},
+ {
+   "Rank": 7,
+   "Team": {
+      "NOC": "Netherlands"
+   },
+   "Gold Medal": 10,
+   "Silver Medal": 12,
+   "Bronze Medal": 14,
+   "Total": 36,
+   "Rank by Total": 9,
+   "NOCCode": "NED",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 8,
+   "Team": {
+      "NOC": "France"
+   },
+   "Gold Medal": 10,
+   "Silver Medal": 12,
+   "Bronze Medal": 11,
+   "Total": 33,
+   "Rank by Total": 10,
+   "NOCCode": "FRA",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 9,
+   "Team": {
+      "NOC": "Germany"
+   },
+   "Gold Medal": 10,
+   "Silver Medal": 11,
+   "Bronze Medal": 16,
+   "Total": 37,
+   "Rank by Total": 8,
+   "NOCCode": "GER",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 10,
+   "Team": {
+      "NOC": "Italy"
+   },
+   "Gold Medal": 10,
+   "Silver Medal": 10,
+   "Bronze Medal": 20,
+   "Total": 40,
+   "Rank by Total": 7,
+   "NOCCode": "ITA",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 11,
+   "Team": {
+      "NOC": "Canada"
+   },
+   "Gold Medal": 7,
+   "Silver Medal": 6,
+   "Bronze Medal": 11,
+   "Total": 24,
+   "Rank by Total": 11,
+   "NOCCode": "CAN",
+   "Continent": "North America"
+},
+ {
+   "Rank": 12,
+   "Team": {
+      "NOC": "Brazil"
+   },
+   "Gold Medal": 7,
+   "Silver Medal": 6,
+   "Bronze Medal": 8,
+   "Total": 21,
+   "Rank by Total": 12,
+   "NOCCode": "BRA",
+   "Continent": "South America"
+},
+ {
+   "Rank": 13,
+   "Team": {
+      "NOC": "New Zealand"
+   },
+   "Gold Medal": 7,
+   "Silver Medal": 6,
+   "Bronze Medal": 7,
+   "Total": 20,
+   "Rank by Total": 13,
+   "NOCCode": "NZL",
+   "Continent": "Australia"
+},
+ {
+   "Rank": 14,
+   "Team": {
+      "NOC": "Cuba"
+   },
+   "Gold Medal": 7,
+   "Silver Medal": 3,
+   "Bronze Medal": 5,
+   "Total": 15,
+   "Rank by Total": 18,
+   "NOCCode": "CUB",
+   "Continent": "North America"
+},
+ {
+   "Rank": 15,
+   "Team": {
+      "NOC": "Hungary"
+   },
+   "Gold Medal": 6,
+   "Silver Medal": 7,
+   "Bronze Medal": 7,
+   "Total": 20,
+   "Rank by Total": 13,
+   "NOCCode": "HUN",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 16,
+   "Team": {
+      "NOC": "Republic of Korea"
+   },
+   "Gold Medal": 6,
+   "Silver Medal": 4,
+   "Bronze Medal": 10,
+   "Total": 20,
+   "Rank by Total": 13,
+   "NOCCode": "KOR",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 17,
+   "Team": {
+      "NOC": "Poland"
+   },
+   "Gold Medal": 4,
+   "Silver Medal": 5,
+   "Bronze Medal": 5,
+   "Total": 14,
+   "Rank by Total": 19,
+   "NOCCode": "POL",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 18,
+   "Team": {
+      "NOC": "Czech Republic"
+   },
+   "Gold Medal": 4,
+   "Silver Medal": 4,
+   "Bronze Medal": 3,
+   "Total": 11,
+   "Rank by Total": 23,
+   "NOCCode": "CZE",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 19,
+   "Team": {
+      "NOC": "Kenya"
+   },
+   "Gold Medal": 4,
+   "Silver Medal": 4,
+   "Bronze Medal": 2,
+   "Total": 10,
+   "Rank by Total": 25,
+   "NOCCode": "KEN",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 20,
+   "Team": {
+      "NOC": "Norway"
+   },
+   "Gold Medal": 4,
+   "Silver Medal": 2,
+   "Bronze Medal": 2,
+   "Total": 8,
+   "Rank by Total": 29,
+   "NOCCode": "NOR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 21,
+   "Team": {
+      "NOC": "Jamaica"
+   },
+   "Gold Medal": 4,
+   "Silver Medal": 1,
+   "Bronze Medal": 4,
+   "Total": 9,
+   "Rank by Total": 26,
+   "NOCCode": "JAM",
+   "Continent": "North America"
+},
+ {
+   "Rank": 22,
+   "Team": {
+      "NOC": "Spain"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 8,
+   "Bronze Medal": 6,
+   "Total": 17,
+   "Rank by Total": 17,
+   "NOCCode": "ESP",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 23,
+   "Team": {
+      "NOC": "Sweden"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 6,
+   "Bronze Medal": 0,
+   "Total": 9,
+   "Rank by Total": 26,
+   "NOCCode": "SWE",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 24,
+   "Team": {
+      "NOC": "Switzerland"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 4,
+   "Bronze Medal": 6,
+   "Total": 13,
+   "Rank by Total": 20,
+   "NOCCode": "SUI",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 25,
+   "Team": {
+      "NOC": "Denmark"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 4,
+   "Bronze Medal": 4,
+   "Total": 11,
+   "Rank by Total": 23,
+   "NOCCode": "DEN",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 26,
+   "Team": {
+      "NOC": "Croatia"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 3,
+   "Bronze Medal": 2,
+   "Total": 8,
+   "Rank by Total": 29,
+   "NOCCode": "CRO",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 27,
+   "Team": {
+      "NOC": "Islamic Republic of Iran"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 2,
+   "Bronze Medal": 2,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "IRI",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 28,
+   "Team": {
+      "NOC": "Serbia"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 1,
+   "Bronze Medal": 5,
+   "Total": 9,
+   "Rank by Total": 26,
+   "NOCCode": "SRB",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 29,
+   "Team": {
+      "NOC": "Belgium"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 1,
+   "Bronze Medal": 3,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "BEL",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 30,
+   "Team": {
+      "NOC": "Bulgaria"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 1,
+   "Bronze Medal": 2,
+   "Total": 6,
+   "Rank by Total": 39,
+   "NOCCode": "BUL",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 31,
+   "Team": {
+      "NOC": "Slovenia"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 5,
+   "Rank by Total": 42,
+   "NOCCode": "SLO",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 32,
+   "Team": {
+      "NOC": "Uzbekistan"
+   },
+   "Gold Medal": 3,
+   "Silver Medal": 0,
+   "Bronze Medal": 2,
+   "Total": 5,
+   "Rank by Total": 42,
+   "NOCCode": "UZB",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 33,
+   "Team": {
+      "NOC": "Georgia"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 5,
+   "Bronze Medal": 1,
+   "Total": 8,
+   "Rank by Total": 29,
+   "NOCCode": "GEO",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 34,
+   "Team": {
+      "NOC": "Chinese Taipei"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 4,
+   "Bronze Medal": 6,
+   "Total": 12,
+   "Rank by Total": 22,
+   "NOCCode": "TPE",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 35,
+   "Team": {
+      "NOC": "Turkey"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 2,
+   "Bronze Medal": 9,
+   "Total": 13,
+   "Rank by Total": 20,
+   "NOCCode": "TUR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 36,
+   "Team": {
+      "NOC": "Greece"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "GRE",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 36,
+   "Team": {
+      "NOC": "Uganda"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "UGA",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 38,
+   "Team": {
+      "NOC": "Ecuador"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "ECU",
+   "Continent": "South America"
+},
+ {
+   "Rank": 39,
+   "Team": {
+      "NOC": "Ireland"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 0,
+   "Bronze Medal": 2,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "IRL",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 39,
+   "Team": {
+      "NOC": "Israel"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 0,
+   "Bronze Medal": 2,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "ISR",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 41,
+   "Team": {
+      "NOC": "Qatar"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "QAT",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 42,
+   "Team": {
+      "NOC": "Bahamas"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 0,
+   "Bronze Medal": 0,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "BAH",
+   "Continent": "North America"
+},
+ {
+   "Rank": 42,
+   "Team": {
+      "NOC": "Kosovo"
+   },
+   "Gold Medal": 2,
+   "Silver Medal": 0,
+   "Bronze Medal": 0,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "KOS",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 44,
+   "Team": {
+      "NOC": "Ukraine"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 6,
+   "Bronze Medal": 12,
+   "Total": 19,
+   "Rank by Total": 16,
+   "NOCCode": "UKR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 45,
+   "Team": {
+      "NOC": "Belarus"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 3,
+   "Bronze Medal": 3,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "BLR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 46,
+   "Team": {
+      "NOC": "Romania"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 3,
+   "Bronze Medal": 0,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "ROU",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 46,
+   "Team": {
+      "NOC": "Venezuela"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 3,
+   "Bronze Medal": 0,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "VEN",
+   "Continent": "South America"
+},
+ {
+   "Rank": 48,
+   "Team": {
+      "NOC": "India"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 2,
+   "Bronze Medal": 4,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "IND",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 49,
+   "Team": {
+      "NOC": "Hong Kong, China"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 2,
+   "Bronze Medal": 3,
+   "Total": 6,
+   "Rank by Total": 39,
+   "NOCCode": "HKG",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 50,
+   "Team": {
+      "NOC": "Philippines"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 2,
+   "Bronze Medal": 1,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "PHI",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 50,
+   "Team": {
+      "NOC": "Slovakia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 2,
+   "Bronze Medal": 1,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "SVK",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 52,
+   "Team": {
+      "NOC": "South Africa"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 2,
+   "Bronze Medal": 0,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "RSA",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 53,
+   "Team": {
+      "NOC": "Austria"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 5,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "AUT",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 54,
+   "Team": {
+      "NOC": "Egypt"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 4,
+   "Total": 6,
+   "Rank by Total": 39,
+   "NOCCode": "EGY",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 55,
+   "Team": {
+      "NOC": "Indonesia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 3,
+   "Total": 5,
+   "Rank by Total": 42,
+   "NOCCode": "INA",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 56,
+   "Team": {
+      "NOC": "Ethiopia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 2,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "ETH",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 56,
+   "Team": {
+      "NOC": "Portugal"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 2,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "POR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 58,
+   "Team": {
+      "NOC": "Tunisia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "TUN",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 59,
+   "Team": {
+      "NOC": "Estonia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "EST",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 59,
+   "Team": {
+      "NOC": "Fiji"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "FIJ",
+   "Continent": "Australia"
+},
+ {
+   "Rank": 59,
+   "Team": {
+      "NOC": "Latvia"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "LAT",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 59,
+   "Team": {
+      "NOC": "Thailand"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "THA",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 63,
+   "Team": {
+      "NOC": "Bermuda"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "BER",
+   "Continent": "North America"
+},
+ {
+   "Rank": 63,
+   "Team": {
+      "NOC": "Morocco"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "MAR",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 63,
+   "Team": {
+      "NOC": "Puerto Rico"
+   },
+   "Gold Medal": 1,
+   "Silver Medal": 0,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "PUR",
+   "Continent": "North America"
+},
+ {
+   "Rank": 66,
+   "Team": {
+      "NOC": "Colombia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 4,
+   "Bronze Medal": 1,
+   "Total": 5,
+   "Rank by Total": 42,
+   "NOCCode": "COL",
+   "Continent": "South America"
+},
+ {
+   "Rank": 67,
+   "Team": {
+      "NOC": "Azerbaijan"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 3,
+   "Bronze Medal": 4,
+   "Total": 7,
+   "Rank by Total": 33,
+   "NOCCode": "AZE",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 68,
+   "Team": {
+      "NOC": "Dominican Republic"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 3,
+   "Bronze Medal": 2,
+   "Total": 5,
+   "Rank by Total": 42,
+   "NOCCode": "DOM",
+   "Continent": "North America"
+},
+ {
+   "Rank": 69,
+   "Team": {
+      "NOC": "Armenia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 2,
+   "Bronze Medal": 2,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "ARM",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 70,
+   "Team": {
+      "NOC": "Kyrgyzstan"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 2,
+   "Bronze Medal": 1,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "KGZ",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 71,
+   "Team": {
+      "NOC": "Mongolia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 3,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "MGL",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 72,
+   "Team": {
+      "NOC": "Argentina"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 2,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "ARG",
+   "Continent": "South America"
+},
+ {
+   "Rank": 72,
+   "Team": {
+      "NOC": "San Marino"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 2,
+   "Total": 3,
+   "Rank by Total": 60,
+   "NOCCode": "SMR",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 74,
+   "Team": {
+      "NOC": "Jordan"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "JOR",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 74,
+   "Team": {
+      "NOC": "Malaysia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "MAS",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 74,
+   "Team": {
+      "NOC": "Nigeria"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 1,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "NGR",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "Bahrain"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "BRN",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "Saudi Arabia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "KSA",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "Lithuania"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "LTU",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "North Macedonia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "MKD",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "Namibia"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "NAM",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 77,
+   "Team": {
+      "NOC": "Turkmenistan"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 1,
+   "Bronze Medal": 0,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "TKM",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 83,
+   "Team": {
+      "NOC": "Kazakhstan"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 8,
+   "Total": 8,
+   "Rank by Total": 29,
+   "NOCCode": "KAZ",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 84,
+   "Team": {
+      "NOC": "Mexico"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 4,
+   "Total": 4,
+   "Rank by Total": 47,
+   "NOCCode": "MEX",
+   "Continent": "North America"
+},
+ {
+   "Rank": 85,
+   "Team": {
+      "NOC": "Finland"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 2,
+   "Total": 2,
+   "Rank by Total": 66,
+   "NOCCode": "FIN",
+   "Continent": "Europe"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Botswana"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "BOT",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Burkina Faso"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "BUR",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Côte d'Ivoire"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "CIV",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Ghana"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "GHA",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Grenada"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "GRN",
+   "Continent": "North America"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Kuwait"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "KUW",
+   "Continent": "Africa"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Republic of Moldova"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "MDA",
+   "Continent": "Asia"
+},
+ {
+   "Rank": 86,
+   "Team": {
+      "NOC": "Syrian Arab Republic"
+   },
+   "Gold Medal": 0,
+   "Silver Medal": 0,
+   "Bronze Medal": 1,
+   "Total": 1,
+   "Rank by Total": 77,
+   "NOCCode": "SYR",
+   "Continent": "Asia"
+}
+]

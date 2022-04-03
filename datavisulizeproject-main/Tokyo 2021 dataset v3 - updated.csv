@@ -1,0 +1,235 @@
+Rank,Team,GoldMedal,SilverMedal,BronzeMedal,Year,Total,Rank by Total,NOCCode,Continent
+1,United States of America,39,41,33,2021,113,1,USA,North America
+2,United States of America,46,37,38,2016,121,1,USA,North America
+3,United States of America,47,27,30,2012,104,1,USA,North America
+4,United States of America,36,39,37,2008,112,1,USA,North America
+5,United States of America,36,39,26,2004,101,1,USA,North America
+6,United States of America,37,24,32,2000,93,1,USA,North America
+7,United States of America,44,32,25,1996,101,1,USA,North America
+8,United States of America,37,34,37,1992,108,1,USA,North America
+9,United States of America,36,31,27,1988,94,1,USA,North America
+10,United States of America,83,61,30,1984,174,1,USA,North America
+11,United States of America,34,35,25,1976,125,1,USA,North America
+12,United States of America,33,31,30,1972,94,1,USA,North America
+13,United States of America,45,28,34,1968,107,1,USA,North America
+14,United States of America,36,26,28,1964,90,1,USA,North America
+15,United States of America,34,21,16,1960,71,1,USA,North America
+16,United States of America,32,25,17,1956,98,1,USA,North America
+17,United States of America,40,19,17,1952,76,1,USA,North America
+18,United States of America,38,27,19,1948,84,1,USA,North America
+19,United States of America,24,20,12,1936,56,1,USA,North America
+20,United States of America,41,32,30,1932,103,1,USA,North America
+21,United States of America,22,18,16,1928,56,1,USA,North America
+22,United States of America,45,27,27,1924,99,1,USA,North America
+23,United States of America,41,27,27,1920,95,1,USA,North America
+24,United States of America,26,19,19,1912,64,1,USA,North America
+25,United States of America,23,12,12,1908,47,1,USA,North America
+26,United States of America,76,78,77,1904,231,1,USA,North America
+27,United States of America,19,14,15,1900,48,1,USA,North America
+28,United States of America,11,7,2,1896,20,1,USA,North America
+29,People's Republic of China,38,32,18,2021,88,2,CHN,Asia
+30,People's Republic of China,26,18,26,2016,70,2,CHN,Asia
+31,People's Republic of China,38,31,22,2012,91,2,CHN,Asia
+32,People's Republic of China,48,22,30,2008,100,2,CHN,Asia
+33,People's Republic of China,32,17,14,2004,63,2,CHN,Asia
+34,People's Republic of China,28,16,14,2000,58,2,CHN,Asia
+35,People's Republic of China,16,22,12,1996,50,2,CHN,Asia
+36,People's Republic of China,16,22,16,1992,54,2,CHN,Asia
+37,People's Republic of China,5,11,12,1988,28,2,CHN,Asia
+38,People's Republic of China,15,8,9,1984,32,2,CHN,Asia
+39,Japan,27,14,17,2021,58,5,JPN,Asia
+40,Japan,12,8,21,2016,41,5,JPN,Asia
+41,Japan,7,14,17,2012,38,5,JPN,Asia
+42,Japan,9,8,8,2008,25,5,JPN,Asia
+43,Japan,16,9,12,2004,37,5,JPN,Asia
+44,Japan,5,8,5,2000,18,5,JPN,Asia
+45,Japan,3,6,5,1996,14,5,JPN,Asia
+46,Japan,3,8,11,1992,22,5,JPN,Asia
+47,Japan,4,3,7,1988,14,5,JPN,Asia
+48,Japan,10,8,14,1984,32,5,JPN,Asia
+49,Japan,9,6,10,1976,25,5,JPN,Asia
+50,Japan,13,8,8,1972,29,5,JPN,Asia
+51,Japan,11,7,7,1968,25,5,JPN,Asia
+52,Japan,16,5,8,1964,29,5,JPN,Asia
+53,Japan,4,7,7,1960,18,5,JPN,Asia
+54,Japan,4,10,5,1956,19,5,JPN,Asia
+55,Japan,1,6,2,1952,9,5,JPN,Asia
+56,Japan,7,7,4,1932,18,5,JPN,Asia
+57,Japan,2,2,1,1928,5,5,JPN,Asia
+58,Japan,0,0,1,1924,1,5,JPN,Asia
+59,Japan,4,10,5,1956,19,5,JPN,Asia
+60,Japan,1,6,2,1952,9,5,JPN,Asia
+61,Japan,7,7,4,1932,18,5,JPN,Asia
+62,Great Britain,22,21,22,2021,65,4,GBR,Europe
+63,Great Britain,27,23,17,2016,67,4,GBR,Europe
+64,Great Britain,29,18,18,2012,65,4,GBR,Europe
+65,Great Britain,19,13,19,2008,51,4,GBR,Europe
+66,Great Britain,9,9,12,2004,30,4,GBR,Europe
+67,Great Britain,11,10,7,2000,28,4,GBR,Europe
+68,Great Britain,1,8,6,1996,15,4,GBR,Europe
+69,Great Britain,5,3,12,1992,20,4,GBR,Europe
+70,Great Britain,5,10,9,1988,24,4,GBR,Europe
+71,Great Britain,5,11,21,1984,37,4,GBR,Europe
+72,Great Britain,3,5,5,1976,13,4,GBR,Europe
+73,Great Britain,4,5,9,1972,18,4,GBR,Europe
+74,Great Britain,5,5,3,1968,13,4,GBR,Europe
+75,Great Britain,4,12,2,1964,18,4,GBR,Europe
+76,Great Britain,2,6,12,1960,20,4,GBR,Europe
+77,Great Britain,6,7,11,1956,24,4,GBR,Europe
+78,Great Britain,1,2,8,1952,11,4,GBR,Europe
+79,Great Britain,3,14,6,1948,23,4,GBR,Europe
+80,Great Britain,4,7,3,1936,14,4,GBR,Europe
+81,Great Britain,4,7,5,1932,16,4,GBR,Europe
+82,Great Britain,3,10,7,1928,20,4,GBR,Europe
+83,Great Britain,9,13,12,1924,34,4,GBR,Europe
+84,Great Britain,14,16,13,1920,43,4,GBR,Europe
+85,Great Britain,10,15,16,1912,41,4,GBR,Europe
+86,Great Britain,56,51,39,1908,146,4,GBR,Europe
+87,Great Britain,1,1,0,1904,2,4,GBR,Europe
+88,Great Britain,15,8,9,1900,32,4,GBR,Europe
+89,Great Britain,2,3,2,1896,7,4,GBR,Europe
+90,ROC,20,28,23,2016,71,3,ROC,Europe/Asia
+91,ROC,20,28,23,2021,71,3,ROC,Europe/Asia
+92,Australia,17,7,22,2021,46,6,AUS,Australia
+93,Australia,8,11,10,2016,29,6,AUS,Australia
+94,Australia,8,15,12,2012,35,6,AUS,Australia
+95,Australia,14,15,17,2008,46,6,AUS,Australia
+96,Australia,17,16,17,2004,50,6,AUS,Australia
+97,Australia,16,25,17,2000,58,6,AUS,Australia
+98,Australia,9,9,23,1996,41,6,AUS,Australia
+99,Australia,7,9,11,1992,27,6,AUS,Australia
+100,Australia,3,6,5,1988,14,6,AUS,Australia
+101,Australia,4,8,12,1984,24,6,AUS,Australia
+102,Australia,2,2,5,1980,9,6,AUS,Australia
+103,Australia,0,1,4,1976,5,6,AUS,Australia
+104,Australia,8,7,2,1972,17,6,AUS,Australia
+105,Australia,5,7,5,1968,17,6,AUS,Australia
+106,Australia,6,2,10,1964,18,6,AUS,Australia
+107,Australia,8,8,6,1960,22,6,AUS,Australia
+108,Australia,13,8,14,1956,35,6,AUS,Australia
+109,Australia,6,2,3,1952,11,6,AUS,Australia
+110,Australia,2,6,5,1948,13,6,AUS,Australia
+111,Australia,0,0,1,1936,1,6,AUS,Australia
+112,Australia,3,1,1,1932,5,6,AUS,Australia
+113,Australia,1,2,1,1928,4,6,AUS,Australia
+114,Australia,3,1,2,1924,6,6,AUS,Australia
+115,Australia,0,3,1,1904,4,6,AUS,Australia
+116,Australia,2,0,3,1900,5,6,AUS,Australia
+117,Australia,2,0,0,1896,2,6,AUS,Australia
+118,Netherlands,0,2,3,1900,5,9,NED,Europe
+119,Netherlands,0,0,2,1908,2,9,NED,Europe
+120,Netherlands,4,2,5,1920,11,9,NED,Europe
+121,Netherlands,4,1,5,1924,10,9,NED,Europe
+122,Netherlands,6,9,4,1928,19,9,NED,Europe
+123,Netherlands,2,5,0,1932,7,9,NED,Europe
+124,Netherlands,6,4,7,1936,17,9,NED,Europe
+125,Netherlands,5,2,9,1948,16,9,NED,Europe
+126,Netherlands,0,5,0,1952,5,9,NED,Europe
+127,Netherlands,0,1,2,1960,3,9,NED,Europe
+128,Netherlands,2,4,4,1964,10,9,NED,Europe
+129,Netherlands,3,3,1,1968,7,9,NED,Europe
+130,Netherlands,3,1,1,1972,5,9,NED,Europe
+131,Netherlands,0,2,3,1976,5,9,NED,Europe
+132,Netherlands,0,1,2,1980,3,9,NED,Europe
+133,Netherlands,5,2,6,1984,13,9,NED,Europe
+134,Netherlands,2,2,5,1988,9,9,NED,Europe
+135,Netherlands,2,6,7,1992,15,9,NED,Europe
+136,Netherlands,4,5,10,1996,19,9,NED,Europe
+137,Netherlands,12,9,4,2000,25,9,NED,Europe
+138,Netherlands,4,9,9,2004,22,9,NED,Europe
+139,Netherlands,7,5,4,2008,16,9,NED,Europe
+140,Netherlands,6,6,8,2012,20,9,NED,Europe
+141,Netherlands,8,7,4,2016,19,9,NED,Europe
+142,Netherlands,10,12,14,2021,36,9,NED,Europe
+143,France,10,12,11,2021,33,10,FRA,Europe
+144,France,10,18,14,2016,42,10,FRA,Europe
+145,France,11,11,13,2012,35,10,FRA,Europe
+146,Germany,10,11,16,2021,37,8,GER,Europe
+147,Germany,17,10,15,2016,42,8,GER,Europe
+148,Germany,11,20,13,2012,44,8,GER,Europe
+149,Italy,10,10,20,2021,40,7,ITA,Europe
+150,Italy,8,12,8,2016,28,7,ITA,Europe
+151,Italy,8,9,11,2012,28,7,ITA,Europe
+152,Canada,7,6,11,,24,11,CAN,North America
+153,Brazil,7,6,8,,21,12,BRA,South America
+154,New Zealand,7,6,7,,20,13,NZL,Australia
+155,Cuba,7,3,5,,15,18,CUB,North America
+156,Hungary,6,7,7,,20,13,HUN,Europe
+157,Republic of Korea,6,4,10,,20,13,KOR,Asia
+158,Poland,4,5,5,,14,19,POL,Europe
+159,Czech Republic,4,4,3,,11,23,CZE,Europe
+160,Kenya,4,4,2,,10,25,KEN,Africa
+161,Norway,4,2,2,,8,29,NOR,Europe
+162,Jamaica,4,1,4,,9,26,JAM,North America
+163,Spain,3,8,6,,17,17,ESP,Europe
+164,Sweden,3,6,0,,9,26,SWE,Europe
+165,Switzerland,3,4,6,,13,20,SUI,Europe
+166,Denmark,3,4,4,,11,23,DEN,Europe
+167,Croatia,3,3,2,,8,29,CRO,Europe
+168,Islamic Republic of Iran,3,2,2,,7,33,IRI,Asia
+169,Serbia,3,1,5,,9,26,SRB,Europe
+170,Belgium,3,1,3,,7,33,BEL,Europe
+171,Bulgaria,3,1,2,,6,39,BUL,Europe
+172,Slovenia,3,1,1,,5,42,SLO,Europe
+173,Uzbekistan,3,0,2,,5,42,UZB,Asia
+174,Georgia,2,5,1,,8,29,GEO,Europe
+175,Chinese Taipei,2,4,6,,12,22,TPE,Asia
+176,Turkey,2,2,9,,13,20,TUR,Europe
+177,Greece,2,1,1,,4,47,GRE,Europe
+178,Uganda,2,1,1,,4,47,UGA,Africa
+179,Ecuador,2,1,0,,3,60,ECU,South America
+180,Ireland,2,0,2,,4,47,IRL,Europe
+181,Israel,2,0,2,,4,47,ISR,Asia
+182,Qatar,2,0,1,,3,60,QAT,Asia
+183,Bahamas,2,0,0,,2,66,BAH,North America
+184,Kosovo,2,0,0,,2,66,KOS,Europe
+185,Ukraine,1,6,12,,19,16,UKR,Europe
+186,Belarus,1,3,3,,7,33,BLR,Europe
+187,Romania,1,3,0,,4,47,ROU,Europe
+188,Venezuela,1,3,0,,4,47,VEN,South America
+189,India,1,2,4,,7,33,IND,Asia
+190,"Hong Kong, China",1,2,3,,6,39,HKG,Asia
+191,Philippines,1,2,1,,4,47,PHI,Asia
+192,Slovakia,1,2,1,,4,47,SVK,Europe
+193,South Africa,1,2,0,,3,60,RSA,Africa
+194,Austria,1,1,5,,7,33,AUT,Europe
+195,Egypt,1,1,4,,6,39,EGY,Africa
+196,Indonesia,1,1,3,,5,42,INA,Asia
+197,Ethiopia,1,1,2,,4,47,ETH,Africa
+198,Portugal,1,1,2,,4,47,POR,Europe
+199,Tunisia,1,1,0,,2,66,TUN,Africa
+200,Estonia,1,0,1,,2,66,EST,Europe
+201,Fiji,1,0,1,,2,66,FIJ,Australia
+202,Latvia,1,0,1,,2,66,LAT,Europe
+203,Thailand,1,0,1,,2,66,THA,Asia
+204,Bermuda,1,0,0,,1,77,BER,North America
+205,Morocco,1,0,0,,1,77,MAR,Africa
+206,Puerto Rico,1,0,0,,1,77,PUR,North America
+207,Colombia,0,4,1,,5,42,COL,South America
+208,Azerbaijan,0,3,4,,7,33,AZE,Europe
+209,Dominican Republic,0,3,2,,5,42,DOM,North America
+210,Armenia,0,2,2,,4,47,ARM,Europe
+211,Kyrgyzstan,0,2,1,,3,60,KGZ,Asia
+212,Mongolia,0,1,3,,4,47,MGL,Asia
+213,Argentina,0,1,2,,3,60,ARG,South America
+214,San Marino,0,1,2,,3,60,SMR,Europe
+215,Jordan,0,1,1,,2,66,JOR,Asia
+216,Malaysia,0,1,1,,2,66,MAS,Asia
+217,Nigeria,0,1,1,,2,66,NGR,Africa
+218,Bahrain,0,1,0,,1,77,BRN,Asia
+219,Saudi Arabia,0,1,0,,1,77,KSA,Asia
+220,Lithuania,0,1,0,,1,77,LTU,Europe
+221,North Macedonia,0,1,0,,1,77,MKD,Europe
+222,Namibia,0,1,0,,1,77,NAM,Africa
+223,Turkmenistan,0,1,0,,1,77,TKM,Asia
+224,Kazakhstan,0,0,8,,8,29,KAZ,Europe
+225,Mexico,0,0,4,,4,47,MEX,North America
+226,Finland,0,0,2,,2,66,FIN,Europe
+227,Botswana,0,0,1,,1,77,BOT,Africa
+228,Burkina Faso,0,0,1,,1,77,BUR,Africa
+229,Côte d'Ivoire,0,0,1,,1,77,CIV,Africa
+230,Ghana,0,0,1,,1,77,GHA,Africa
+231,Grenada,0,0,1,,1,77,GRN,North America
+232,Kuwait,0,0,1,,1,77,KUW,Africa
+233,Republic of Moldova,0,0,1,,1,77,MDA,Asia
+234,Syrian Arab Republic,0,0,1,,1,77,SYR,Asia

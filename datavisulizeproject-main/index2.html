@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+            <title> Project - Data Visulization </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding-left: 0px;
+                
+                overflow: hidden;
+                background-color:#1f6272 ;
+            }
+        
+            li {
+                float: left;
+            }
+           
+            h1{
+                text-align: center; 
+                font-size: 50px;
+            }
+
+            h2{
+                text-align: center;
+                font-size: 30px;
+            }
+
+            #container {
+                width: 75%;
+            margin: auto;
+            padding-top: 3%;
+            background-color:#e5e5e5;
+            text-align: center;
+        }
+        
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 12px 14px;
+                font-size: 21px;
+                text-decoration: none;
+            }
+           
+        
+            li a:hover:not(.active) {
+                background-color: #f1a923;
+            }
+        
+            .active {
+                background-color: #4CAF50;
+            }
+            .headerContainer {
+                background-color: #3e93a7;
+            }
+
+        </style> 
+        </head>
+        <body style="background-color: #e5e5e5; margin: 0px">
+            <div class="headerContainer">
+                <H1 style="color: white; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 22px;"> Olympics Dashboard </H1> 
+            </div>
+        <ul>
+            <li><a href="index.html">Line Chart</a></li>
+            <li><a href="index3.html">Stacked Bar Chart</a></li>
+            <li><a href="index1.html">Geospatial Visualization</a></li>
+            <li><a href="index2.html">Area Chart</a></li>
+            
+        </ul>
+        <h2>Area Chart Visulization of 5 countries from 1896 to 2021 </h2>
+
+        <div>
+            <svg id="main" width=100% height=1200 viewBox="0 0 1000 800">
+        </svg>
+        </div>
+        <script>
+
+         let svg = d3.select('svg#main');
+         let margins = 30;
+         let width = 500 -  margins;
+         let height = 300 - margins;
+
+
+         let stackColors = ['#ffc100',
+          '#ed7c30',
+          '#a5a6a6',
+          '#70ad47',
+          '#4774c6']
+
+
+         const keys = ['USA','China','Japan','GreatBritain','ROC'];
+     
+         const loadData = d3.csv("https://raw.githubusercontent.com/shivpatil254/datavisulizeproject/main/Area-Chart-Dataset.csv",
+        function(d) {
+            return {
+                USA: Number(d.USA),
+                China: Number(d.China),
+                Japan: Number(d.Japan),
+                GreatBritain: Number(d.GreatBritain),
+                ROC: Number(d.ROC)}
+        }) 
+     
+        loadData.then(data =>{
+
+let stack = d3.stack()
+    .keys(keys);
+let stackedSeries = stack(data);
+
+let yScale = d3.scaleLinear()
+            .domain([0,
+                d3.max(stackedSeries, d => d3.max(d, d => d[1]))])
+            .range([height, margins]);
+
+            let area = d3.area()
+            .x(function(d, i) {
+                console.log(d)
+                return i *30;
+            })
+            .y0(function(d) {
+                return yScale(d[0]);
+            })
+            .y1(function(d) {
+                return yScale(d[1]);
+            });
+        svg.selectAll('path')
+            .data(stackedSeries)
+            .enter()
+            .append('path')
+            .style('fill', function(d, i) {
+                return stackColors[i];
+            })
+            .attr('d', area);
+
+    });
+
+    let lineLegend = svg.selectAll(".lineLegend").data(keys)
+        .enter().append("g")
+        .attr("class","lineLegend")
+        .attr("transform", function (d,i) {
+            return "translate(" + width + "," + (i*20)+")";
+        });
+
+    lineLegend.append("text").text(function (d) {return d;})
+        .attr("transform", "translate(15,15)"); 
+
+    lineLegend.append("rect")
+        .attr("fill", function (d, i) {return stackColors[i]; })
+        .attr("transform", "translate(0,5)")
+        .attr("width", 10).attr("height", 10);
+
+
+        </script>
+     
+        </body>
+        </html>
